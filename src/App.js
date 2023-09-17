@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MainLayout from "./components/layouts/MainLayout";
+import MainLayout from "./layouts/MainLayout";
 import Sidebar from "./components/Sidebar";
 import ContentContainer from "./components/ContentContainer";
 import TabPanel from "./components/tabs/TabPanel";

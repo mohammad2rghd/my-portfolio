@@ -4,12 +4,8 @@ import { CacheProvider } from "@emotion/react";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import createCache from "@emotion/cache";
 import { prefixer } from "stylis";
-
-import { Typography } from "@mui/material/";
 import Grid from "@mui/material/Unstable_Grid2";
-
-import Sidebar from "../Sidebar";
-import { theme } from "./../ui/theme";
+import { theme } from "../layouts/theme";
 import * as React from "react";
 
 //NOTE Create RTL Cache
